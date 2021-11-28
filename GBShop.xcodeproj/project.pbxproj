@@ -99,13 +99,14 @@
 		8B2732B327541A1B00BC9067 /* GBShop */ = {
 			isa = PBXGroup;
 			children = (
-				8B2732B427541A1B00BC9067 /* AppDelegate.swift */,
-				8B2732B627541A1B00BC9067 /* SceneDelegate.swift */,
-				8B2732B827541A1B00BC9067 /* ViewController.swift */,
-				8B2732BA27541A1B00BC9067 /* Main.storyboard */,
-				8B2732BD27541A1C00BC9067 /* Assets.xcassets */,
-				8B2732BF27541A1C00BC9067 /* LaunchScreen.storyboard */,
-				8B2732C227541A1C00BC9067 /* Info.plist */,
+				8B2732E427541CA700BC9067 /* Core */,
+				8B2732E527541CB400BC9067 /* Resources */,
+				8B2732E627541CC600BC9067 /* Enviroments */,
+				8B2732E727541CE100BC9067 /* App */,
+				8B2732E827541CED00BC9067 /* Flow */,
+				8B2732E927541CFD00BC9067 /* Assembly */,
+				8B2732EA27541D1300BC9067 /* Entity */,
+				8B2732EB27541D2300BC9067 /* BusinessLogic */,
 			);
 			path = GBShop;
 			sourceTree = "<group>";
@@ -125,6 +126,69 @@
 				8B2732D727541A1C00BC9067 /* GBShopUITestsLaunchTests.swift */,
 			);
 			path = GBShopUITests;
+			sourceTree = "<group>";
+		};
+		8B2732E427541CA700BC9067 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8B2732E527541CB400BC9067 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B2732BD27541A1C00BC9067 /* Assets.xcassets */,
+				8B2732BF27541A1C00BC9067 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B2732E627541CC600BC9067 /* Enviroments */ = {
+			isa = PBXGroup;
+			children = (
+				8B2732C227541A1C00BC9067 /* Info.plist */,
+			);
+			path = Enviroments;
+			sourceTree = "<group>";
+		};
+		8B2732E727541CE100BC9067 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8B2732B427541A1B00BC9067 /* AppDelegate.swift */,
+				8B2732B627541A1B00BC9067 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8B2732E827541CED00BC9067 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				8B2732B827541A1B00BC9067 /* ViewController.swift */,
+				8B2732BA27541A1B00BC9067 /* Main.storyboard */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		8B2732E927541CFD00BC9067 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		8B2732EA27541D1300BC9067 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		8B2732EB27541D2300BC9067 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
