@@ -103,10 +103,6 @@
 				8B2732E527541CB400BC9067 /* Resources */,
 				8B2732E627541CC600BC9067 /* Enviroments */,
 				8B2732E727541CE100BC9067 /* App */,
-				8B2732E827541CED00BC9067 /* Flow */,
-				8B2732E927541CFD00BC9067 /* Assembly */,
-				8B2732EA27541D1300BC9067 /* Entity */,
-				8B2732EB27541D2300BC9067 /* BusinessLogic */,
 			);
 			path = GBShop;
 			sourceTree = "<group>";
@@ -155,6 +151,10 @@
 		8B2732E727541CE100BC9067 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				8B2732E827541CED00BC9067 /* Flow */,
+				8B2732E927541CFD00BC9067 /* Assembly */,
+				8B2732EA27541D1300BC9067 /* Entity */,
+				8B2732EB27541D2300BC9067 /* BusinessLogic */,
 				8B2732B427541A1B00BC9067 /* AppDelegate.swift */,
 				8B2732B627541A1B00BC9067 /* SceneDelegate.swift */,
 			);
