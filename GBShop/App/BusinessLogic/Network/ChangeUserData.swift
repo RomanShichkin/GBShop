@@ -17,7 +17,8 @@ class ChangeUserData: AbstractRequestFactory {
     init(
         errorParser: AbstractErrorParser,
         sessionManager: Session,
-        queue: DispatchQueue = DispatchQueue.global(qos: .utility)) {
+        queue: DispatchQueue = DispatchQueue.global(qos: .utility))
+    {
         self.errorParser = errorParser
         self.sessionManager = sessionManager
         self.queue = queue

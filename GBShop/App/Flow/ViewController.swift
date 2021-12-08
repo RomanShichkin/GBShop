@@ -17,6 +17,8 @@ class ViewController: UIViewController {
 //        logout(userId: 123)
 //        register()
 //        changeUser()
+//        catalogList()
+        product()
     }
 
     func auth(userName: String, password: String) {
@@ -61,6 +63,30 @@ class ViewController: UIViewController {
             switch response.result {
             case .success(let change):
                 print(change)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func catalogList() {
+        let goods = requestFactory.makeGoodsRequestFactory()
+        goods.doCatalogList(){ response in
+            switch response.result {
+            case .success(let register):
+                print(register)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func product() {
+        let goods = requestFactory.makeGoodsRequestFactory()
+        goods.doProduct(){ response in
+            switch response.result {
+            case .success(let register):
+                print(register)
             case .failure(let error):
                 print(error.localizedDescription)
             }
