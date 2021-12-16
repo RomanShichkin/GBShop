@@ -12,7 +12,7 @@ class ChangeUserData: AbstractRequestFactory {
     let errorParser: AbstractErrorParser
     let sessionManager: Session
     let queue: DispatchQueue
-    let baseUrl = URL(string: "https://raw.githubusercontent.com/mclaud2007/online-store-api/master/responses/")!
+    let baseUrl = URL(string: "http://cryptic-ridge-78040.herokuapp.com/")!
     
     init(
         errorParser: AbstractErrorParser,
